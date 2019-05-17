@@ -27,5 +27,6 @@ def printer(attendees)
     puts badge
   end
   rooms.each do |room|
+    puts room
   end
 end
