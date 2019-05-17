@@ -14,6 +14,6 @@ end
 def assign_rooms(attendees)
   assignments = []
   for person in attendees do
-    
+    assignments << "Hello, #{person}! You'll be assigned to room #{assignments.length + 1}!"
   end
 end
