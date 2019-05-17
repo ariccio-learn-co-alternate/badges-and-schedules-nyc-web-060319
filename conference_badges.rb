@@ -6,14 +6,14 @@ end
 
 def batch_badge_creator(attendees)
   badges = []
-  for name in attendees do
+  attendees.each do |name|
     badges << badge_maker(name)
   end
 end
 
 def assign_rooms(attendees)
   assignments = []
-  for person in attendees do
+  attendees.each do |person|
     assignments << "Hello, #{person}! You'll be assigned to room #{assignments.length + 1}!"
   end
   return assignments
