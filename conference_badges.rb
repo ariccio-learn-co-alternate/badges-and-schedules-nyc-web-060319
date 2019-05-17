@@ -5,5 +5,7 @@ def badge_maker(name)
 end
 
 def batch_badge_creator(attendees)
-  
+  for badge in attendees do
+    
+  end
 end
