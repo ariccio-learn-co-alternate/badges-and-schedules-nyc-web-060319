@@ -1,5 +1,5 @@
 # Write your code here.
 
 def badge_maker(name)
-  return "Hello, "
+  return "Hello, my name is #{name}."
 end
